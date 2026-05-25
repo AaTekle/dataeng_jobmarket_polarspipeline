@@ -2,7 +2,7 @@
 
 ## Overview
 
-Data engineering project that collects remote job postings, stores the raw data, cleans it, transforms it, and displays the results in a streamlit dashboard.
+Data engineering pipeline (using polars) that collects remote job postings, stores the raw data, cleans it, transforms it, and displays the results in a streamlit dashboard.
 
 
 The goal is to understand what skills, companies, and job categories appear most often in remote job postings.
