@@ -7,9 +7,9 @@ Data engineering pipeline (using polars) that collects remote job postings, stor
 
 The goal is to understand what skills, companies, and job categories appear most often in remote job postings.
 
-The project uses:
+project uses:
 
-- Python to run the pipeline
+- python to run the pipeline
 - Requests to get job data from an API
 - DuckDB to store the data locally
 - Polars to clean and transform the data
@@ -20,7 +20,7 @@ The project uses:
 
 ## Project Goal
 
-This project answers questions like:
+this project answers questions like:
 
 - What technical skills appear most often in remote job postings?
 - Which companies are hiring the most?
@@ -57,8 +57,8 @@ This project answers questions like:
 - It creates a list of skills found in each job posting.
 
 **Creates a job-to-skill table:**
-- The script creates `job_skill_bridge`.
-- This table connects each job posting to the skills found in its description.
+- script creates `job_skill_bridge`.
+- table connects each job posting to the skills found in its description.
 - One job can appear multiple times if it mentions multiple skills.
 
 **Creates summary tables:**
